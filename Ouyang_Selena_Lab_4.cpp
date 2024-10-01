@@ -64,7 +64,7 @@ int main ()
         cin >> continuerunning; //allows user to input 1 or 2 
     }
 
-
+return 0;
 }
 
 

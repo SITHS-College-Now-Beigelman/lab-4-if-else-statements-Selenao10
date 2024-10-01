@@ -25,8 +25,8 @@ int main ()
         if ( grams < 10 )
             cout << name << " LOW SUGAR FRUIT"; 
 
-        //Prints out "MEDIUM SUGAR FRUIT" if the gram of sugar is less than or equal to 14
-        if( grams > 10 && grams <= 14)
+        //Prints out "MEDIUM SUGAR FRUIT" if the gram of sugar is greater than or equal to 10 and less than or equal to 14
+        if( grams >= 10 && grams <= 14)
             cout << name << " MEDIUM SUGAR FRUIT"; 
 
         //Prints out "HIGH SUGAR FRUIT" if the gram of sugar is more than 14
@@ -51,8 +51,8 @@ int main ()
         if ( grams < 10 )
         cout << name << " LOW SUGAR FRUIT";
 
-        //Prints out "MEDIUM SUGAR FRUIT" if the gram of sugar is less than or equal to 14
-        if( grams > 10 && grams <= 14)
+        //Prints out "MEDIUM SUGAR FRUIT" if the gram of sugar is greater than or equal to 10 and less than or equal to 14
+        if( grams >= 10 && grams <= 14)
         cout << name << " MEDIUM SUGAR FRUIT";
 
         //Prints out "HIGH SUGAR FRUIT" if the gram of sugar is more than 14
